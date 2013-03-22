@@ -7,7 +7,7 @@
     paginator:     the paginator that renders the pagination tags inside
 -%>
 <%= paginator.render do -%>
-  <nav class="pagination pagination-right">
+  <nav class="pagination pagination-right pagination-large">
   <% if total_pages > 0 -%>
     <ul>
       <%= first_page_tag unless current_page.first? %>
